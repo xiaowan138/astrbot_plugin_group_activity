@@ -1,0 +1,18 @@
+{
+  "top_n": {
+    "description": "排行榜默认显示人数",
+    "type": "int",
+    "default": 10,
+    "hint": "建议 5~30"
+  },
+  "default_enabled": {
+    "description": "新群是否默认开启统计",
+    "type": "bool",
+    "default": true
+  },
+  "count_command": {
+    "description": "是否把指令消息也计入统计",
+    "type": "bool",
+    "default": true
+  }
+}

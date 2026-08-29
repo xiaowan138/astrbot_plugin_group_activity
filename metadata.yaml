@@ -1,0 +1,5 @@
+name: astrbot_plugin_group_activity
+desc: 群活跃度统计：发言排行榜、个人活跃档案、活跃时段分析，支持按天/周/月/历史总计查看（开发中，可能存在bug）
+version: v1.0.0
+author: xiaowan138
+repo: https://github.com/xiaowan138/astrbot_plugin_group_activity
