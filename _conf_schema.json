@@ -3,7 +3,7 @@
     "description": "排行榜默认显示人数",
     "type": "int",
     "default": 10,
-    "hint": "建议 5~30"
+    "hint": "范围 1~50"
   },
   "default_enabled": {
     "description": "新群是否默认开启统计",
@@ -13,6 +13,19 @@
   "count_command": {
     "description": "是否把指令消息也计入统计",
     "type": "bool",
-    "default": true
+    "default": false,
+    "hint": "关闭后 /活跃、/我的活跃等指令不会增加活跃度"
+  },
+  "dive_days": {
+    "description": "潜水榜默认天数",
+    "type": "int",
+    "default": 7,
+    "hint": "超过该天数未发言的成员进入潜水榜"
+  },
+  "timezone_offset": {
+    "description": "时区偏移（小时）",
+    "type": "int",
+    "default": 0,
+    "hint": "0 表示跟随服务器时区；北京时间填 8"
   }
 }
